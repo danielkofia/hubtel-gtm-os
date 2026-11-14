@@ -2,8 +2,8 @@
 
 ## 1. Company
 
-Hubtel is the subject of this independent educational GTM Engineering portfolio project. This is not an official Hubtel project and the author is not affiliated with the company.
-Hubtel's business description, products, customers and market position are NOT yet established. They must be verified through research and cited in `context/docs/research/` before use anywhere else.
+This workspace supports Hubtel's go-to-market engineering work. We act as an in-house GTM Engineer at Hubtel, building the company's GTM strategy and systems.
+Research (2026-11-13) is in `context/docs/research/`: Hubtel is a Ghana payments and commerce company with both B2C and B2B sides. Many figures (merchants, volume, revenue, pricing) conflict or are unverified; check `source-register.md` and the confidence notes before using any number, and confirm with the relevant Hubtel team where possible. The ICP is in `context/icp/`: primary target is owner-led hospitality and food-service businesses with 2 to 15 outlets in Greater Accra; secondary is multi-branch retail. Branch reporting, staff tracking, reconciliation and audit log capabilities need Product confirmation before any message promises them. No messaging or facts file exists yet.
 
 ## 2. How This Folder Works
 
