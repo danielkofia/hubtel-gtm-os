@@ -37,5 +37,14 @@ Hubtel's business description, products, customers and market position are NOT y
 
 - Git (branch `main`) tracks the project. Commit after each meaningful unit of work. Run `git status` and review the diff before every commit. Never commit secrets.
 - GitHub CLI (`gh`) is used for the public repo. Pushing is outward-facing: ask first.
-No other tools are integrated yet. Integration is a later priority (see `weekly-priorities/`).
+- Miro plugin (project scope) is authenticated and connected. Ask before creating or editing boards.
+- Notion MCP (`.mcp.json`) is approved, authenticated and connected. Publish only approved, finished docs; GitHub stays the source of truth.
+- treg is NOT installed or logged in (deferred, payment). Never run paid lookups. See `tools/tool-integration-register.md`.
+- Imported but NOT installed: `tools/rex` (Clay), `tools/crawl4ai`, `tools/agent-browser`. Do not install or run without approval.
 When tools are added, document each one here with its purpose, how to run it on Windows 11 (PowerShell), and which env vars it needs (names only, never values).
+
+## 5. Skills (from the GTM Starter Kit, MIT, see `THIRD-PARTY.md`)
+
+Core chain, run in order, each stops for approval: `/campaign-strategy` (ideas) -> `/signal-matrix` (segments and signals) -> `/build-workflow-spec` (structure, no copy) -> `/campaign-copy` (needs an approved spec and `context/messaging/facts.md`).
+Also: `/miro-gtm-flowchart` (draws on Miro). Clay skills (`build-clay`, `prompt-builder`, `campaign-contract`, `design-clay-table-json`, `import-clay-table`, `save-clay-schema`, `calculate-costs`, `workspace-cost-audit`, `export-tables`, `campaign-qa`), `crawl4ai`, `agent-browser` and `inbox-placement-test` need tools or accounts we do not have. Do not use them yet.
+Skills read `context/` first. Run them only after research and ICP exist. Playbooks they read are in `knowledge-base/playbooks/`.

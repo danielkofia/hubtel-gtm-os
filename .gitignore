@@ -17,6 +17,14 @@ token*.json
 .claude/settings.local.json
 .treg/
 
+# Tool sessions and runtime (Clay session cookies, Python and Node environments)
+clay-session.json
+.venv/
+venv/
+__pycache__/
+*.pyc
+node_modules/
+
 # Data files
 *.csv
 *.xlsx
