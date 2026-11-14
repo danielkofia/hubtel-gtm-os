@@ -1,0 +1,25 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Credentials and keys
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+secrets*.json
+service-account*.json
+token*.json
+
+# Local-only config
+.claude/settings.local.json
+.treg/
+
+# Data files
+*.csv
+*.xlsx
+
+# OS files
+.DS_Store
